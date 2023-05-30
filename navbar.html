@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+            img{
+                    width: 45px;
+                    height: 45px;
+                }
+            .navbar-center {
+                display: flex;
+                align-items: center;
+                user-select: none;
+            }
+            .log{
+                font-weight: 400px;
+            }
+            #logo {
+                margin-left: 200px;
+                font-size: large;
+            }
+            @media (max-width: 300px) {
+                .navbar-center {
+                    flex-direction:row-reverse;
+                }
+
+                #logo {
+                    margin-top: 10px;
+                    font-size: small;
+                    margin-left: 0px;   
+                    
+                }
+            }
+            body,html{
+                width:100%;
+                overflow-x:hidden;
+            }
+            .navbar{
+                width:100%;
+            }
+            @media (max-width:786px){
+                #logo {
+                    margin-left: 0px;
+                    font-size:8px;
+                }
+            }
+        </style>
+    </head>
+<nav class="nav navbar navbar-expand-lg position-fixed top-0 w-100" id="topNavigation">
+    <div class="container-md">
+        <span class="image"><a class="navbar-brand" href="index.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg21Q_VzwK0nmcEZWiwOYPRiXcA3r7G-yUncfDjCRjJN-oSrzKrqD5qDvvzGT2-SU9FPz14A-V-8CWdEw8760gvq6eotbhzcNxf887Okn6Ler_Dm8xEaFnQ7L3nLcJiDaRqE1RHlbwYVY1MYBtIzfpva9RG73pWx_n3-bOIMn3JRlC8pNf8e8ORw15q/s1280/main.png"></a></span>
+        <div class="navbar-center">
+                <span  class="log" id="logo">RGUKT ALUMNI ASSOCIATION (RAA)</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://rguktsklm.ac.in/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#explore">ExploreHere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./posts.php">Post Here</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">RegisterHere</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

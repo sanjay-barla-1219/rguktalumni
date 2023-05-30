@@ -1,0 +1,46 @@
+.card {
+/* position: relative; */
+/* display: flex; */
+/* flex-direction: column; */
+/* min-width: 0; */
+/* word-wrap: break-word; */
+background-color: #ffffff;
+/* background-clip: border-box; */
+border: 0 solid #d9dee3;
+border-radius: 0.5rem;
+animation-name: example;
+animation-duration: 1s;
+animation-delay: 0s;
+box-shadow: 2px 3px 5px red;
+/* animation-direction: reverse; */
+}
+
+
+.card {
+    background-clip: padding-box;
+    box-shadow: 4px 2px 10px 2px rgba(119, 119, 119, 0.952);
+    margin-top: 100px;
+    width: 20%;
+    height: 50%;
+    float: right;
+}
+.head{
+    text-align: center;
+    margin-top: 50px;
+}
+@keyframes example {
+    0%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0px);
+    }  
+}
+
+@media (orientation: portrait){
+    .card{
+        width: 500px;
+        height: 500px;
+        margin-left: -20px;
+    }
+}
